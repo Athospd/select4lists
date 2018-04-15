@@ -142,8 +142,24 @@ test_that("odd object types are retrieved successfully", {
 
 
 
-
-
+#
+#
+#
+# S3method(rename,list)
+# S3method(rename_,list)
+# S3method(select,list)
+# S3method(select_,list)
+# export(rename.list)
+# export(rename_.list)
+# export(select.list)
+# export(select_.list)
+# importFrom(Rcpp,sourceCpp)
+# importFrom(dplyr,rename)
+# importFrom(dplyr,rename_)
+# importFrom(dplyr,select)
+# importFrom(dplyr,select_)
+# importFrom(rlang,caller_env)
+# useDynLib(select4lists)
 
 
 
