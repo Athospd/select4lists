@@ -3,15 +3,16 @@ Title: Dplyr's `select()` for lists
 Version: 0.1
 Authors@R: person("Athos", "Damiani", email = "athos.damiani@curso-r.com", role = c("aut", "cre"))
 Description: Port of the `dplyr::select()` for work with named lists.
-Depends: R (>= 3.4.4)
+Depends: R (>= 3.4.4),
+    dplyr
 License: GNU v3
 Encoding: UTF-8
 LazyData: true
-Imports: 
+Imports:
     dplyr,
     Rcpp
 Suggests: testthat
-LinkingTo: 
+LinkingTo:
     dplyr,
     Rcpp,
     BH (>= 1.58.0-1),
