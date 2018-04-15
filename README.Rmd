@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# select4lists
+
+Dplyr's `select()` for named lists.
+
+## Installation
+
+You can install select4lists from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("Athospd/select4lists")
+```
+
+## Dplyr functions implemented
+
+- select()
+- rename()
+
+## Example
+
+```{r example}
+library(dplyr)
+library(select4lists)
+iris_as_list <- as.list(iris %>% head)
+
+iris_as_list %>% select(Species)
+iris_as_list %>% select(starts_with("Sepal"))
+iris_as_list %>% select(2:3)
+iris_as_list %>% select(-contains("."))
+```

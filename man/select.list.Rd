@@ -16,6 +16,6 @@
 \method{rename_}{list}(.list, ..., .dots = list())
 }
 \description{
-`select.list()` keeps only the variables you mention; `rename.list()`
-keeps all variables. See `help(select, package = "dplyr")`` for further details.
+`select.list()` keeps only the elements you mention; `rename.list()`
+keeps all elements. The list must be named. See `help(select, package = "dplyr")`` for further details.
 }
