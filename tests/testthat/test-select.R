@@ -89,12 +89,9 @@ test_that("can select() or rename() with strings and character vectors", {
 })
 
 test_that("odd object types are retrieved successfully", {
-  lista <- list(a = c(1,2,3), aff = c("plim", "plom"), jeferson = head(iris,2), gg = ggplot2::ggplot(iris))
+  lista <- list(a = c(1,2,3), aff = c("plim", "plom"), jeferson = head(iris,2))
 
   expect_identical(select(lista, jeferson), lista["jeferson"])
-  expect_identical(lapply(select(lista, "gg"), class), lapply(lista["gg"], class))
-
-  expect_identical(lapply(select_(lista, "jeferson", "gg"), class), lapply(lista[c("jeferson", "gg")], class))
 })
 
 

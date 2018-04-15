@@ -2,20 +2,11 @@
 % Please edit documentation in R/list.R
 \name{select.list}
 \alias{select.list}
-\alias{select_.list}
-\alias{rename.list}
-\alias{rename_.list}
 \title{Select/rename list's elements by name}
 \usage{
-\method{select}{list}(.list, ...)
-
-\method{select_}{list}(.list, ..., .dots = list())
-
-\method{rename}{list}(.list, ...)
-
-\method{rename_}{list}(.list, ..., .dots = list())
+\method{select}{list}(.data, ...)
 }
 \description{
-`select.list()` keeps only the elements you mention; `rename.list()`
+`select.data()` keeps only the elements you mention; `rename.data()`
 keeps all elements. The list must be named. See `help(select, package = "dplyr")`` for further details.
 }
