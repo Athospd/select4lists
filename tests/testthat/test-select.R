@@ -157,6 +157,3 @@ test_that("odd object types are retrieved successfully", {
 # importFrom(dplyr,select_)
 # importFrom(rlang,caller_env)
 # useDynLib(select4lists)
-
-
-

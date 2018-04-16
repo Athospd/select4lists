@@ -1,6 +1,6 @@
 Package: select4lists
 Title: Dplyr's `select()` for lists
-Version: 0.1
+Version: 0.2
 Authors@R: person("Athos", "Damiani", email = "athos.damiani@curso-r.com", role = c("aut", "cre"))
 Description: Port of the `dplyr::select()` for work with named lists.
 Depends: R (>= 3.4.4),
