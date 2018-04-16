@@ -5,7 +5,8 @@ Authors@R: person("Athos", "Damiani", email = "athos.damiani@curso-r.com", role 
 Description: Port of the `dplyr::select()` for work with named lists.
 Depends: R (>= 3.4.4),
     utils,
-    dplyr
+    dplyr,
+    tidyselect
 License: GPL-3 | file LICENSE
 URL: https://github.com/Athospd/select4lists
 BugReports: https://github.com/Athospd/select4lists/issues
@@ -13,8 +14,7 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     Rcpp,
-    rlang,
-    tidyselect
+    rlang
 Suggests: testthat
 LinkingTo:
     dplyr,
